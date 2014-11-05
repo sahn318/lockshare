@@ -34,9 +34,9 @@ public class ServerToComputer{
                     String timeStamp = new SimpleDateFormat("HH:mm:ss").format(Calendar.getInstance().getTime());
 
                     if(server == 1){
-                    	System.out.println(timeStamp + ": " + "Door 1 Unlocked");
+                    	System.out.println(timeStamp + ": " + "Door Unlocked");
                     }else{
-                    	System.out.println(timeStamp + ": " + "Door 1 Locked");
+                    	System.out.println(timeStamp + ": " + "Door Locked");
                     }
                 }
             }catch(IOException e)
